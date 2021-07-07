@@ -2,7 +2,7 @@
  
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+  $receiving_email_address = 'danosella@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -33,4 +33,3 @@
   $contact->add_message( $_POST['message'], 'Message', 10);
 
   echo $contact->send();
-?>
